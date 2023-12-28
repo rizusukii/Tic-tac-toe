@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body {
+    background-color: lightblue;
+}
+
+#title {
+    text-align: center;
+    font-family:'Righteous', cursive;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#game-board {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.cell {
+    width: 90px;
+    height: 90px;
+    border: 1px solid black;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#score-board {
+    font-family: 'Righteous', cursive;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 30px;
+    margin-left: 70px;
+}
+
+#game-over-message {
+    font-size: 48px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    font-size: 30px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 12%;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 70px;
+}
+
+#game-rule {
+    height: 100px;
+    font-family: 'Righteous', cursive;
+    font-size: 150%;
+}
+
+#game-rule p {
+    text-align: center;
+    margin-top: 100px;
+}
